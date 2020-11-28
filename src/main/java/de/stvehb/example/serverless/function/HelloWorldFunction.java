@@ -1,6 +1,8 @@
+package de.stvehb.example.serverless.function;
+
 import io.quarkus.funqy.Funq;
 
-public class Function {
+public class HelloWorldFunction {
 
 	@Funq
 	public String helloWorld() {
