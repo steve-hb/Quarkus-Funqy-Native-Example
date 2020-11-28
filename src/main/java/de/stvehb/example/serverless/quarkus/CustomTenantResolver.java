@@ -14,7 +14,8 @@ import javax.inject.Inject;
 import java.util.UUID;
 
 /**
- * This class is responsible for managing the multi-tenant multi-database handling
+ * This class is responsible for managing the multi-tenant multi-database handling.
+ * If you don't want to support this handling, just delete this class.
  */
 @RequestScoped
 public class CustomTenantResolver implements TenantResolver, TenantConnectionResolver {
