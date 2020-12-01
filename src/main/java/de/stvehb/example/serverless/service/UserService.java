@@ -11,7 +11,7 @@ import javax.transaction.Transactional;
 public class UserService {
 
 	@Inject
-	private UserRepository userRepository;
+	UserRepository userRepository;
 
 	@Transactional
 	public void createUser(String username) {

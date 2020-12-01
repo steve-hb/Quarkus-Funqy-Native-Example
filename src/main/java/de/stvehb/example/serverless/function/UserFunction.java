@@ -10,7 +10,7 @@ import javax.validation.Valid;
 public class UserFunction {
 
 	@Inject
-	private UserService userSer;
+	UserService userSer;
 
 	@Funq
 	public void createUser(@Valid UserDTO userDTO) {
