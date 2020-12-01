@@ -22,7 +22,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class RepositoryTest {
 
 	@Inject
-	private UserRepository userRepository;
+	UserRepository userRepository;
 
 	@Test
 	@Transactional
